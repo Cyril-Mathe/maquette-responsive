@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 1px solid blue;
+    border-radius: 25px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    height: 89vh;
+    border: 2px solid red;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-color: aqua;
+        border: 2px solid aqua;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        border: 2px solid red;
+    }
+}
