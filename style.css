@@ -87,3 +87,34 @@ main {
     height: 100%;
     background-color: #fda4af;
 }
+
+.none {
+    width: 100px;
+    height: 100%;
+    display: none;
+    background-color: #5b21b6;
+}
+
+@media (max-width : 1000px) {
+    main {
+        flex-direction: column;
+    }
+    .carre1 {
+        width: 100%;
+    }
+    .carre2{
+        width: 100%;
+    }
+    .square1 {
+        width: 100%;
+    }
+    .square5 {
+        display: none;
+    }
+    .square4 {
+        width: 100px;
+    }
+    .none {
+        display: block;
+    }
+}
